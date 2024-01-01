@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -24,8 +20,10 @@ module.exports = {
         "grey-900": "#0B0A0F",
         "grey-950": "#04091E",
         "primary-bg": "#2A9D8F",
-        pera: "#060606",
+        pera: "#00000099",
         heading: "#0B1934",
+        "heading-2": "#14142B",
+        h4: "#141414",
         dividor: "#FFB84F",
         secondary: "#299FF4",
         heading2: "ffb84f",
@@ -39,7 +37,7 @@ module.exports = {
         h3: "44px",
       },
       fontFamily: {
-        jakarta: ["Plus Jakarta Sans"],
+        jakarta: ["Work Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         urbanist: ["Urbanist", "sans-serif"],
       },
